@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dogs</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\musta\Desktop\Website\Unnamed\style.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="navigationBarClose" onclick="navigationBarClose()" onload="sideBarLoad"></div>
+    <nav id="navigationSideBar">
+        <img ID="imageBeagleMovable01"src="C:\Users\musta\Desktop\Website\Unnamed\thEL7QLO3A.jpg" onload="v4j38987954()">
+        <ul>
+            <li><a href="contact.html"Contact>Contact</a></li>
+            <li><a href="images of dogs.html"Contact>Images Of Dogs</a></li>
+            <li><a href="dogs.html"Contact>About Dogs</a></li>
+            <li><a href="dogs menu.html"Contact>Home</a></li>
+        </ul>
+    </nav>
+    <!--Navigation bar end-->
+
+    <!--All about dogs-->
+    
+    <h1>Hello! and welcome to all about dogs! 
+        <ul>
+            <li>click the ABOUT DOGS section on the navigation bar to learn about dogs!</li>
+            <li>Click the CONTACT button if you need help!</li>
+            <li> Click the HOME button to reach this page again if you are in a different page!</li>
+            <li>Click the IMAGES OF DOGS button to see images of dogs!</li>
+        </ul>
+        enjoy!
+        *ruff ruff!*
+        <ul><li>Lorem ipsum dolor sit amet consectetur, adipiscing elit ullamcorper.</li> <li>Vulputate ultricies velit nibh facilisi penatibus eleifend, fames dictumst est himenaeos.</li> <li>Convallis posuere fermentum diam fames ultricies, bibendum morbi nisi pellentesque.</li> <li>Proin est a ut aptent, mauris posuere aliquet.</li> <li>Tristique lacinia porttitor etiam, ridiculus varius, rutrum sem.</li></ul>
+    </div>
+
+    <div>
+
+    </h1>
+    <h1>WORK IN PROGRESS</h1>
+    <p>this is a project only I can see</p>
+</div>
+
+    <!--All about dogs end-->
+    <script>
+        /*Javascript*/
+        
+        function sideBarLoad() {
+            document.getElementById("navigationSideBar").style.right = "0px";
+            document.getElementById("navigationSideBar").style.right = "-240px";
+        }
+        let functionNavigation = 1;
+        function navigationBarClose() {
+            if (functionNavigation == 1) {
+                document.getElementById("navigationSideBar").style.right = "-240px";
+                functionNavigation = 0;
+            } else if (functionNavigation == 0) {
+                document.getElementById("navigationSideBar").style.right = "0px";
+                functionNavigation = 1;
+
+            }
+        }
+        function v4j38987954() {
+            document.getElementById("imageBeagleMovable01").style.left = "-700px";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\musta\Desktop\Website\Unnamed\style.css">
+</head>
+<body>
+    <div id="navigationBarClose" onclick="navigationBarClose()"></div>
+    <nav id="navigationSideBar">
+            <img src="C:\Users\musta\Desktop\Website\Unnamed\thEL7QLO3A.jpg">
+        <ul>
+            <li><a href="contact.html"Contact>Contact</a></li>
+            <li><a href="images of dogs.html"Contact>Images Of Dogs</a></li>
+            <li><a href="dogs.html"Contact>About Dogs</a></li>
+            <li><a href="dogs menu.html"Contact>Home</a></li>
+        </ul>
+    </nav>
+    <div>
+
+        </h1>
+        <h1>My gmail is</h1>
+        <footer><b>test@testmail.tom</b></footer>
+        <p>this is a project only I can see</p>
+        
+    </div>
+    <script>
+        let functionNavigation = 1;
+        function navigationBarClose() {
+            if (functionNavigation == 1) {
+                document.getElementById("navigationSideBar").style.right = "-240px";
+                functionNavigation = 0;
+            } else if (functionNavigation == 0) {
+                document.getElementById("navigationSideBar").style.right = "0px";
+                functionNavigation = 1;
+            }
+        }
+
+    </script>
+</body>
+</html>
